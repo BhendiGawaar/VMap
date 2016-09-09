@@ -1,8 +1,14 @@
 This is an android App simillar to Google Map but with voice interface. The application flow is as follows:
 
+
 When the application starts various API’s such as Google’s speech recognition, Place suggestion, Text to speech and Map API’s are initialized
+
 When the user clicks the mic button, speech recognizer prompts user to speak. Once the word is recognized, it is then given to Place suggestion API. 
+
 Place suggestion API fetches the relevant suggestions for a provided place name.
+
 When the place suggestions are ready onResult event is called in which these suggestions are given to text to speech so as to provide audio suggestions to user. 
+
 User is then asked to speak out the place to be selected.
+
 selected place’s coordinates are then fetched which are then plotted on the map.
